@@ -1,6 +1,6 @@
 {
   "name": "nice-weather",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A weather app for the terminal",
   "main": "./bin/index.js",
   "bin": {
