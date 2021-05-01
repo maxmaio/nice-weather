@@ -230,8 +230,8 @@ function getWindColor(windSpeed) {
       
       case "200":
         return [
-          "\033[33m   \\  /\033[0m        " + weatherDesc + " ",
-          "\033[33m  _/\\\033[0m\033[0m .-. \033[0m    " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
+          "\033[33m   \\_/\033[0m        " + weatherDesc + " ",
+          "\033[33m  _/\033[0m\033[0m  .-. \033[0m    " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[33m   /\033[0m(___(__) \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[33m  ⚡\033[34m‘ ‘\033[33m,⚡\033[34m‘  \033[0m",
           "\033[34m   ‘ ‘ ‘ ‘  \033[0m"
@@ -260,7 +260,7 @@ function getWindColor(windSpeed) {
   
       case "266":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ ‘ ‘ ‘  \033[0m",
@@ -270,7 +270,7 @@ function getWindColor(windSpeed) {
   
       case "293":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ ‘ ‘ ‘  \033[0m",
@@ -280,7 +280,7 @@ function getWindColor(windSpeed) {
   
       case "296":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ ‘ ‘ ‘  \033[0m",
@@ -290,7 +290,7 @@ function getWindColor(windSpeed) {
   
       case "359":
         return [
-          "\033[0m      .-.     \033[0m " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‚‘‚‘‚‘‚‘  \033[0m",
@@ -300,7 +300,7 @@ function getWindColor(windSpeed) {
   
       case "302":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‚‘‚‘‚‘‚‘  \033[0m",
@@ -310,7 +310,7 @@ function getWindColor(windSpeed) {
   
       case "308":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‚‘‚‘‚‘‚‘  \033[0m",
@@ -320,7 +320,7 @@ function getWindColor(windSpeed) {
   
       case "320":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[36m   *  *  * \033[0m",
@@ -330,7 +330,7 @@ function getWindColor(windSpeed) {
       
       case "227":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[36m   *  *  * \033[0m",
@@ -340,7 +340,7 @@ function getWindColor(windSpeed) {
   
       case "329":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[36m   * * * * \033[0m",
@@ -350,7 +350,7 @@ function getWindColor(windSpeed) {
   
       case "332":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[36m   * * * * \033[0m",
@@ -360,7 +360,7 @@ function getWindColor(windSpeed) {
   
       case "338":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[36m   * * * * \033[0m",
@@ -369,7 +369,7 @@ function getWindColor(windSpeed) {
         break;
       case "230":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[36m   * * * * \033[0m",
@@ -379,7 +379,7 @@ function getWindColor(windSpeed) {
   
       case "182":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
@@ -389,7 +389,7 @@ function getWindColor(windSpeed) {
   
       case "185":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
@@ -399,7 +399,7 @@ function getWindColor(windSpeed) {
   
       case "281":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
@@ -409,7 +409,7 @@ function getWindColor(windSpeed) {
       
       case "284":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
@@ -419,7 +419,7 @@ function getWindColor(windSpeed) {
   
       case "314":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
@@ -429,7 +429,7 @@ function getWindColor(windSpeed) {
   
       case "317":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
@@ -439,7 +439,7 @@ function getWindColor(windSpeed) {
   
       case "350":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
@@ -449,7 +449,7 @@ function getWindColor(windSpeed) {
   
       case "377":
         return [
-          "\033[0m      .-.     \033[0m   " + weatherDesc + " ",
+          "\033[0m      .-.  \033[0m   " + weatherDesc + " ",
           "\033[0m    (   ).   \033[0m " + "\033[" + tempColor +"m" + temp + "\033[0m °F",
           "\033[0m   (___(__)  \033[0m " + arrow + " " + "\033["+ windColor + "m" + windSpeed + "\033[0m" + " mph",
           "\033[34m   ‘ \033[0m*\033[34m ‘ \033[0m*  \033[0m",
