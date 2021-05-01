@@ -1,0 +1,20 @@
+{
+  "name": "nice-weather",
+  "version": "1.0.3",
+  "description": "A weather app for the terminal",
+  "main": "./bin/index.js",
+  "bin": {
+    "weather": "./bin/index.js"
+  },
+  "keywords": [
+    "weather",
+    "sunny",
+    "foggy"
+  ],
+  "preferGlobal": true,
+  "author": "maxmaio",
+  "license": "MIT",
+  "dependencies": {
+    "string-length": "^4.0.2"
+  }
+}
